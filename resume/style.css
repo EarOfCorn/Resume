@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #0f141e;
+	background-color: #f1f1f1;
+	padding-left: 10px;
+}
+
+.container{
+	margin: auto;
+	max-width: 1200px;
+}
+
+.info{
+	font-style: italic;
+}
+
+.info img {
+	border-radius: 10%;
+	box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info header{
+	font-style: oblique;
+	background-color: rgba(5, 126, 122, 0.39)
+}
+
+.card {
+	border: 1px solid black;
+	margin-bottom: 10px;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+}
+
+.bg-hobby{
+	background: #fff9dc;
+}
+
+.bg-skill{
+	background: #ffe5e5;
+}
+
+.bg-contact {
+	background: #e5ffe7;
+}
