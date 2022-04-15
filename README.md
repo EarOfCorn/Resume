@@ -1,5 +1,5 @@
 # Моё резюме
 
-## Рузультат тут
+## Результат тут
 
 [Резюме](https://earofcorn.github.io/Resume/resume/index.html)
