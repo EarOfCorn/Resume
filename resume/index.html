@@ -9,31 +9,39 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
+		<nav class="navbar">
+			<ul>
+				<li><a href="#">Info</a></li>
+				<li><a href="#">Hobby</a></li>
+				<li><a href="#">XP</a></li>
+				<li><a href="#">Link</a></li>
+			</ul>
+		</nav>
 		<div class="container">
 			<div class="info">
 				<img src="img/png-clipart-maize-vegetable-sweet-corn-drawing-corn-food-fictional-character.png" alt="Фото профиля" width="150"/>
 				<div class="info-text">
-				<header>
-					<h1>Калинченко Матвей</h1>
-				</header>
-				<p>Я основатель <strong>Ничего</strong>.</p>
-				<hr />
-				<p>
-					Я люблю очень долго сидеть за компьютером, <em>и кушать иногда люблю</em>.
-				</p>
-				<h4>Список моих соц сетей</h4>
-				<a href="https://vk.com/kykyryzhuk" target="_blank"> vk </a>
-				|
-				<a href="https://t.me/EarOfCorn"
-					target="_blank">
-					Telegram
-				</a>
+					<div class="myname">
+						<h1>Калинченко Матвей</h1>
+					</div>
+					<p>Я основатель <strong>Ничего</strong>.</p>
+					<hr />
+					<p>
+						Я люблю очень долго сидеть за компьютером, <em>и кушать иногда люблю</em>.
+					</p>
+					<h4>Список моих соц сетей</h4>
+					<a href="https://vk.com/kykyryzhuk" target="_blank"> vk </a>
+					|
+					<a href="https://t.me/EarOfCorn"
+						target="_blank">
+						Telegram
+					</a>
 				</div>
 			</div>
 
 			<div class="card bg-hobby">
 				<h2>Мои хобби</h2>
-				<ol>
+				<ol class="list">
 					<li>Рисование</li>
 					<li>Программирование</li>
 					<li>Тестирование</li>
@@ -42,7 +50,7 @@
 			
 			<div class="card bg-skill">
 				<h2>Опыт работы</h2>
-				<table>
+				<table class="table">
 					<thead>
 						<tr>
 							<th>Название</th>
@@ -61,33 +69,28 @@
 			</div>
 
 			<div class="card bg-contact">
-				<h2>Связаться со мной</h2>
-				<form>
-					<div>
-						<label for="yourname">Ваше имя:</label>
-						<input type="text" id="yourname" placeholder="Введите имя">
+				<form action="/" class="form">
+					<h2>Связаться со мной</h2>
+					<div class="form-row">
+						
+						<div class="form-group">
+							<label for="yourname">Ваше имя:</label>
+							<input type="text" id="yourname" placeholder="Введите имя">
+						</div>
+
+						<div class="form-group">
+							<label for="youremail">Ваш email:</label>
+							<input type="email" id="youremail" placeholder="Введите email">
+						</div>
+						
 					</div>
 
-					<div>
-						<label for="youremail">Ваш email:</label>
-						<input type="email" id="youremail" placeholder="Введите email">
-					</div>
-
-					<div>
-						<label for="yourmessage">Ваше сообщение:</label><br>
+					<div class="form-group">
+						<label for="yourmessage">Ваше сообщение:</label>
 						<textarea id="yourmessage" cols="18" rows="5" placeholder="Введите сообщение..."></textarea><br>
-						<input type="reset" id="yourmessage"><br>
-						<button type="submit">Отправить!</button>
+						<button class="btn" type="submit">Отправить!</button>
 					</div>
 
-					<div>
-						<label for="sex">Ваш пол:</label>
-						<select id="sex">
-							<option value="male">Мужчина</option>
-							<option value="female">Женщина</option>
-							<option value="other" selected>Другое</option>
-						</select>
-					</div>
 				</form>
 			</div>
 
